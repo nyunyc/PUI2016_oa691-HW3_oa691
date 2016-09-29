@@ -70,3 +70,35 @@ This plot is the bar chart type plot of the chosen data frame. We can not attest
 Sources: 
 https://github.com/fedhere/PUI2016_fb55/blob/master/HW3_fb55/citibikes_gender.ipynb
 http://stackoverflow.com/questions/17142304/replace-string-value-in-entire-dataframe
+
+
+Assignment-3: Building on the previous two assignments, I attempt here to futher define the null and the alternative hypothesis and aim to study the z-test. To plot the data I used the usertype raw data from assignment-2 and the chisq distribution and increased the size parameter gradully to 10000, giving a bell shape curve. 
+
+Null Hypothesis:
+The usage of citybikes among members is the same or lower in a given month than the usage customers who do not have the membership.
+
+Alternative Hypothesis:
+The usage of citybikes is significantly higher among customers with membership. 
+
+Confidence/significance Level:
+Confidence level is 95%. and the significance level is 5%, alpha = 0.05.
+
+H_o: Subscribers <= Customers_nonmembers
+
+H_1: Customers_nonmembers < Subscribers
+
+Probability for null hypothesis: This way we can objectively compare the statistically obtained_p to this p.
+
+if we find p(H_1)-p(H_o) > alpha then null H_o is falsified
+
+Based on the citybike data: usertype mean: 100.12, standard deviation: 14.177239. This is for the null H_0
+So the null p-value is 14/10000 = 0.014 that is 1.4%
+
+The H_1: Alternative p value from the histogram mean: approximately 1/2000 = 0.05%
+
+p(H_1)-p(H_o) is less than the 5% threshold alpha.
+
+Note: This my attemp to falsify H_o. Above numbers need a recalculation to before proceeding.
+
+
+
