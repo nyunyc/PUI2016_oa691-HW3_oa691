@@ -22,7 +22,7 @@ Conclusion:
 Increasing the iterations of statistical calculation on sample of a population leads to the actual means' convergence to the theoretical mean. The of large numbers states that as the number of trials increase, the calculated results will converge over to the guess number. Mean 100 is the guess value. The scattered plot, in poisson distribution for example, show that the actual mean converges to the theoretical 100 as more interations are performed.
 
 Scattered plots also shows that as more distribution calculations are made, the shape of that distribution becomes a normal distribution
-as stated by the central limit therom. This can be oberved on all the distributions. The range of extremes may change but the normalization takes place nonetheless. 
+as stated by the central limit therom. This can be oberved on all the distributions. The range of extreme means may change but the curve becomes normal to x-axis with each iteration nonetheless. 
 
 A close inspection on the binomial will show that the convergant mean number with this distribution has remained at 90 even though I defined the theoretical mean to be 100 in my code. This may be due the float parameter, p. The p parameter must be between 0 and 1 and for this practice I defined as 0.9. When I experimented with p, I noticed that as I increased p to 0.999, the means' distribution became closer to ~100. This may indicate that with binomial means are dependent on the sample size and also the precision of the sampling.
 
