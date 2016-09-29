@@ -1,6 +1,8 @@
 # PUI2016_oa691-HW3_oa691
 This repo is for HW-3 Assignment 1, 2 and 3
 
+Refer to Assignments labeled as: PUI2016_oa691_HW3-Assignment #.ipynb
+
 Assignment-1:  
 Problem Statement: Write an ipython notebook that demonstrates visually in a data-driven way the central limit theorem. Plot all sample means, generate distributions as histograms, describe behaviour in terms of law of large numbers.
 
